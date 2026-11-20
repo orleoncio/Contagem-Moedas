@@ -68,5 +68,3 @@ elemento_estruturante = cv2.getStructuringElement(cv2.MORPH_RECT, (40,13))
 chapeu_preto = cv2.morphologyEx(c, cv2.MORPH_BLACKHAT, elemento_estruturante)
 cv2.imwrite("Resultado3.png", chapeu_preto)
 cv2.waitKey(0)
-
-#clear_border Scikit image
